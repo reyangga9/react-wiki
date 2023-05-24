@@ -14,7 +14,11 @@ export default function Cards({ data }) {
           <div
             className={`${styles.cards} d-flex flex-column justify-content-center `}
           >
-            <img src={x.image} className={`${styles.img} img-fluid `} />
+            <img
+              src={x.image}
+              alt={x.name}
+              className={`${styles.img} img-fluid `}
+            />
             <div style={{ padding: "10px" }} className="content">
               <div className="fs-4 fw-bold mb-4">{x.name}</div>
               <div className="">
