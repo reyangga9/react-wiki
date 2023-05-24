@@ -1,0 +1,19 @@
+.cards {
+  border: 2px solid #0b5ed7;
+  border-radius: 10px;
+}
+
+.img {
+  border-radius: 10px 10px 0 0;
+}
+
+.badge {
+  top: 10px;
+  right: 20px;
+  font-size: 17px;
+  position: absolute;
+  color: white;
+  font-family: Ubuntu;
+  font-weight: bold;
+  padding: 0 8px;
+}
